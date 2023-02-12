@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <script src="app.js">
+
+    </script>
+<style>
+
+body{
+    background-color: hotpink;
+}
+
+.container{
+    padding: 2px;
+    margin: 2px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+     'msg'
+     'msg'
+     'img'
+     'img'
+     'click'
+     'footer'
+    ;
+    gap: 2px;
+    
+}
+
+.msg{
+    grid-area: msg;
+    padding: 10px;
+    padding-top:5px ;
+    text-align: center;
+}
+
+.heart{
+    grid-area: img;
+   text-align: center;
+}
+
+
+.click{
+    grid-area: click;
+
+    
+    text-align: center;
+}
+.footer{
+    grid-area: footer;
+    
+    text-align: center;
+}
+
+
+@media (max-width: 600px){
+
+
+
+    .container{
+    padding: 2px;
+    margin: 2px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+     'msg'
+     'msg'
+     'img'
+     'img'
+     'click'
+     'footer'
+    ;
+    gap: 1px;
+    
+}
+
+
+}
+
+
+</style>
+</head>
+<body>
+    
+<div class="container">
+<div class="msg">
+     
+     <h1>
+        You hold my hand For While But <br>
+        you hold My Heart Forever
+     </h1> 
+     
+    </div>
+
+
+<div class="heart">
+
+ <a href="secound.html">   <img src="heart1.png" width="300px" height="300px"></a>
+</div>
+<div class="click">
+
+    <h1>Click Heart </h1>
+      <h1>  FOR YOUR GIFT</h1>
+    
+
+
+</div><br><br>
+ 
+
+<div class="footer">
+    <hr width="50%" size="5px" color="red">
+    <h2>THANK ME LATER </h2>
+    <h2>YOURS SWAPNIL</h2>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
